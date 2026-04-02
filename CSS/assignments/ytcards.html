@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube cards</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <style>
+        #carouselExample {
+            height: 30vh;       /* your custom height */
+        }
+        .carousel-item img {
+            height: 100%;       /* make image fit carousel */
+            width: 100%;
+            object-fit: cover;  /* crop while filling — for a beautiful banner look */
+        }
+    </style>
+</head>
+<body>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://paultan.org/image/2023/04/2024-Land-Rover-Defender-Outbound-01-e1682560448660.jpg" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.edmunds.com/assets/m/cs/bltfebd8f8048d746db/6682fe60f8f3cd0ddac1e478/2025_Land_Rover_Defender_Octa_003_1280.jpg" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://car-images.bauersecure.com/pagefiles/89348/land_rover_defender_55.jpg" class="d-block w-100" alt="">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>
+
+<br>
+
+<a href="https://youtu.be/TK3CxazT4zQ?si=Jn53EXQ73Tf05xK4"
+   style="height:200px;width: 1000px;text-decoration: none; background-color: rgba(15, 181, 196, 0.644); border-radius: 5px;"
+   class="btn btn-primary">
+   Go somewhere
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
